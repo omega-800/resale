@@ -1,0 +1,23 @@
+.navlinks{
+    background-color:var(--semidark);
+    color:var(--lightg);
+    padding:1em;
+}
+.navlinks__outer{
+    width:70%;
+    margin:auto;
+    padding:.5em;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navlinks__outer a{
+    text-decoration: none;
+    color:var(--lightg);
+    font-weight:600;
+    font-size:1.5em;
+    padding:1px 6px;
+}
+.navlinks__outer a:hover{
+    color:var(--lightv);
+}
